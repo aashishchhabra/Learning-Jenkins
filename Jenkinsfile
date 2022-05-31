@@ -13,7 +13,7 @@ pipeline {
             }
             stage("deploy the project"){
                 steps{
-                    echo "deploying the project"
+                    brew services info jenkins
                 }
             }
         }
