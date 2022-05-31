@@ -13,7 +13,7 @@ pipeline {
             }
             stage("deploy the project"){
                 steps{
-                    echo "brew c ommand did not work"
+                    sh "brew services info jenkins"
                 }
             }
         }
