@@ -13,7 +13,7 @@ pipeline {
             }
             stage("deploy the project"){
                 steps{
-                    zsh "brew services info jenkins"
+                    sh "/usr/local/bin/brew services info jenkins"
                 }
             }
         }
